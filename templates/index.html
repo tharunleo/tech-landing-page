@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Landing Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to TechHub</h1>
+    </header>
+    <main>
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Development</h3>
+                <p>We offer cutting-edge development solutions to meet your needs.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-server"></i>
+                <h3>Cloud Services</h3>
+                <p>Take advantage of our scalable and reliable cloud services.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Apps</h3>
+                <p>Get mobile applications that stand out on all platforms.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechHub. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
